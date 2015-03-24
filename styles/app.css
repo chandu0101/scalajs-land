@@ -1,0 +1,298 @@
+
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color : #4F4B4B ;
+    color : rgb(226, 220, 220);
+    line-height: 20px;
+    margin: 0;
+}
+
+.contribute {
+    display :flex;
+    flex-direction : column;
+    justify-content : center;
+    align-items : center;
+    font-size : 14px;
+    padding : 30px;
+}
+
+.contribute .form {
+    display : flex;
+    flex-direction : column;
+    justify-content : center;
+    align-items : center;
+    box-shadow : 0 2px 4px black;
+    width : 500px;
+    padding : 40px;
+    background : transparent;
+}
+
+.contribute .form div {
+    margin : 10px;
+}
+
+.contribute textarea {
+    width : 350px;
+    height : 200px;
+    padding : 9px;
+    border : 1px solid grey;
+    border-radius : 5px;
+    background : transparent;
+    color : rgb(226, 220, 220);
+}
+
+.contribute input {
+    background : transparent;
+    border : 1px solid grey;
+    border-radius : 5px;
+    padding : 7px;
+    width : 320px;
+    color : rgb(226, 220, 220);
+}
+
+.contribute input:focus {
+    border : 1px solid orange;
+    outline:none;
+}
+
+.contribute textarea:focus {
+    border : 1px solid orange;
+    outline:none;
+}
+
+select {
+    background : transparent;
+    color : rgb(226, 220, 220);
+    margin-left: 20px;
+    height: 25px;
+    font-size: 12px;
+}
+
+select:focus {
+    outline : none;
+    border : 1px solid orange;
+}
+.contribute a {
+    display: inline-block;
+    padding: 5px 14px;
+    background-color: #EF5350;
+    border: 1px solid transparent;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: bold;
+    -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.24);
+    -moz-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.24);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.24);
+}
+
+.contribute a:hover,
+.contribute a:focus {
+    text-decoration: none;
+    background-color: #ff1034;
+}
+.contribute h3 {
+    font-weight: 500;
+    font-size: 15px;
+    color : rgb(18, 169, 205);
+}
+.contribute .error {
+    color : rgb(25, 229, 190)
+}
+
+.contribute .status {
+    color : lawngreen;
+    padding: 20px;
+}
+
+.pager {
+    padding-left: 0;
+    margin: 21px 0;
+    list-style: none;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.pager li {
+    display: inline;
+}
+.pager li > a {
+    display: inline-block;
+    padding: 5px 14px;
+    background-color: #EF5350;
+    border: 1px solid transparent;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: bold;
+    -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.24);
+    -moz-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.24);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.24);
+}
+
+.pager li > a:hover,
+.pager li > a:focus {
+    text-decoration: none;
+    background-color: #ff1034;
+}
+.pager .next > a,
+.pager .next > span {
+    float: right;
+}
+.pager .previous > a {
+    float: left;
+}
+.pager .disabled > a {
+    display: none !important;
+}
+
+.categoryPage {
+    padding : 30px;
+}
+
+.categoryPage .content .searchBar {
+    padding : 10px;
+}
+
+.categoryPage .content .searchBar input {
+    background : transparent;
+    border: none;
+    width: 30%;
+    text-align: center;
+    border-bottom : 1px solid grey;
+    padding : 7px;
+    color : rgb(226, 220, 220);
+}
+
+.categoryPage .content .searchBar input:focus {
+    border-bottom : 1px solid orange;
+    outline: none;
+}
+
+.categoryPage .content .settingsBar {
+    padding : 10px 30px;
+}
+.contribute .content div {
+    margin : 20px;
+}
+.items {
+    display : flex;
+    flex-wrap : wrap;
+    padding :  20px;
+}
+
+.items .item {
+    color : rgba(134, 128, 128, 1);
+    max-width : 400px;
+    background-color : #E9EAEA ;
+    flex : 1 0 300px;
+    text-decoration: none;
+    cursor : pointer;
+    margin : 20px;
+    box-shadow : 0 4px 8px rgb(10, 9, 9);
+}
+
+.item div {
+    display: inline-block;
+    padding : 20px;
+    word-break: break-all;
+    color: rgb(45, 44, 44);
+}
+
+.item h3 {
+    line-height : 40px;
+    text-align : center;
+    font-size : 16px;
+    margin:0;
+    box-shadow : 0 2px 4px rgb(207, 199, 199);
+}
+
+/*// header*/
+.header nav {
+    display : flex;
+    align-items : center;
+    height : 64px;
+    padding : 0 35px;
+    background-color : #b71c1c;
+    box-shadow : 0 .075rem 1rem rgba(0,0,0,0.35);
+}
+
+.header  a {
+    text-decoration : none;
+    color : rgb(203, 192, 192);
+    padding : 0 15px;
+    font-size : 17px;
+    line-height : 64px;
+}
+
+.header a:hover {
+    /* background-color : #e53935 */ ;
+}
+.header .active {
+    color : rgb(226, 218, 218);
+    border-bottom : 3px solid #e0e0e0;
+}
+
+footer {
+    border-top: 1px solid grey;
+}
+
+footer p {
+    text-align: center;
+}
+
+.home {
+    padding : 20px 3em;
+    color : rgb(184, 180, 180);
+}
+
+.why .title{
+    font-size : 14px;
+}
+
+.why ul {
+    color : rgba(134, 128, 128, 1);
+    margin-bottom: 20px;
+    padding-left: 0;
+    box-shadow : 0 1px 2px rgb(40, 39, 39);
+}
+.why li {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #32383e;
+    border: 1px solid rgba(32, 30, 30, 0.6);
+}
+
+li:first-child {
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+}
+li:last-child {
+    margin-bottom: 0;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.awesome {
+    padding : 3px;
+    color : rgb(215, 211, 211);
+    text-align:center;
+    font-size : 18px;
+    text-shadow: 4px 5px 7px rgb(36, 34, 34);
+}
+
+.home a {
+    color : orange;
+    padding : 1px;
+    text-decoration : none;
+}
